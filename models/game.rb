@@ -12,17 +12,17 @@ class Game
   def play_game()
 
     if @lefthand == "scissors" && @righthand == "rock"
-      return "Rock wins!"
+      print "Rock wins!"
     elsif @lefthand == "rock" && @righthand == "scissors"
-      return "Rock wins!"
+      print "Rock wins!"
     elsif @lefthand == "scissors" && @righthand == "paper"
-      return "Scissors win!"
+      print "Scissors win!"
     elsif @lefthand == "paper" && @righthand == "scissors"
-      return "Scissors win!"
+      print "Scissors win!"
     elsif @lefthand == "paper" && @righthand == "rock"
-      return "Paper wins!"
+      print "Paper wins!"
     else @lefthand == "rock" && @righthand == "paper"
-      return "Paper wins!"
+      print "Paper wins!"
     # elsif @lefthand == @righthand
     #   return "Tie!"
     end
